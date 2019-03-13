@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D608DC0-CA22-0407-B069-47F9DCD98B5E" name="Student">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 16:47:38 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="11420F8B-31CF-3419-10FC-DF565E086461">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 17:10:26 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="first_name" id="979E739B-3A42-1E98-E6FC-AA6092FDF52C">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 17:10:45 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="889693C2-A2D5-CAAE-FF88-3308521C8CE9">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 17:11:00 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_update" id="B45BD88A-1EF0-6103-19A3-BA942CBAE2D5">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 17:42:51 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C5D0CB3D-56D2-2C56-9182-B81E66176B44" name="Student PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 17:10:39 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11420F8B-31CF-3419-10FC-DF565E086461</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
