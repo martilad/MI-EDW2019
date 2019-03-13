@@ -40,10 +40,10 @@ the distance covered by the mouse movements during an activity
 the number of keystrokes during an activity
 
 ### Target conceptual model
-	![target conceptual model](/images/target_conceptual_model.pdf)
+<img src="/images/target_conceptual_model.jpg" width="800">
 
 ### Stage database model
-	![stage database model](/images/stage_database_model.png)
+<img src="/images/stage_database_model.jpg" width="800">
 
 ### Target database model
-	![target database model](/images/stage_database_model.png)
+<img src="(/images/stage_database_model.jpg" width="800">
