@@ -1,8 +1,14 @@
 # MI-EDW-2019
 
+Semestral work for Enterprise Data Warehouse Systems at FIT CVUT.
+
 ## HW1
 
-### Feature descriptions
+Data analysis, entity and DB model design.
+
+### Data description
+
+#### Features description
 * __session__ - 
 the number of laboratory session from 1 to 6
 * __student_Id__ - 
@@ -32,3 +38,12 @@ the number of mouse right clicks during an activity
 the distance covered by the mouse movements during an activity
 * __keystroke__ - 
 the number of keystrokes during an activity
+
+### Target conceptual model
+	![target conceptual model](/images/target_conceptual_model.pdf)
+
+### Stage database model
+	![stage database model](/images/stage_database_model.png)
+
+### Target database model
+	![target database model](/images/stage_database_model.png)
