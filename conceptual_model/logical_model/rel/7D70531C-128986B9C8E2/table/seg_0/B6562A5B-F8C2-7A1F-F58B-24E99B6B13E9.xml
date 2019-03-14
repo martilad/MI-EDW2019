@@ -13,7 +13,9 @@
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>11420F8B-31CF-3419-10FC-DF565E086461</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -22,8 +24,11 @@
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>979E739B-3A42-1E98-E6FC-AA6092FDF52C</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="last_name" id="044671C8-81DA-F0A0-DFCB-0B586DB8351F">
@@ -31,8 +36,11 @@
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>889693C2-A2D5-CAAE-FF88-3308521C8CE9</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="last_update" id="A31D0517-BFC6-5ECE-A32A-5645B838505F">
@@ -41,13 +49,15 @@
 <generatorID>B45BD88A-1EF0-6103-19A3-BA942CBAE2D5</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E615CA24-B4AF-624D-4DA8-17CD38E6AB40" name="Student_PK">
+<ind_PK_UK id="E615CA24-B4AF-624D-4DA8-17CD38E6AB40" name="student_PK">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>C5D0CB3D-56D2-2C56-9182-B81E66176B44</generatorID>

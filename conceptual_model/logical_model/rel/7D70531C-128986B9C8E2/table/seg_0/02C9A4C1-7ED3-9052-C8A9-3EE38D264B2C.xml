@@ -13,13 +13,16 @@
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>D83405F3-FBCF-D53D-85B3-E2F7ACD07BB5</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="9C91E379-FB4F-7A93-BC08-EED4A95D45E2" name="Activity_type_PK">
+<ind_PK_UK id="9C91E379-FB4F-7A93-BC08-EED4A95D45E2" name="activity_type_PK">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>7E73A09C-2697-A8AB-75D2-D53E9C92AEC4</generatorID>

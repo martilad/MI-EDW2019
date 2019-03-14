@@ -8,12 +8,14 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Student_id" id="8E5CC4FB-5891-53E1-15C0-41778BBF9539">
+<Column name="student_id" id="8E5CC4FB-5891-53E1-15C0-41778BBF9539">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>3196AD61-BFAA-4E3C-01EA-DF87587B6C9A</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -21,12 +23,15 @@
 <colAssociation fkAssociation="2BD251F7-55BE-1763-0AA9-6C4C5C19A5A9" referredColumn="72381C52-0D62-4C09-5892-6CB732470FF1"/>
 </associations>
 </Column>
-<Column name="Final_exercise_exercise_name" id="CBA71166-AFED-C929-DE47-D1D07959AFBF">
+<Column name="final_exercise_exercise_name" id="CBA71166-AFED-C929-DE47-D1D07959AFBF">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>7E574E9B-0F60-E534-B520-DAB589EB470E</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,13 +44,15 @@
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>D8B9BA7D-13FB-B6F3-6B1B-9F04F234DFA9</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DF26B664-49AE-9B5A-A1D3-72D193B32CEE" name="Final_exercise_points_PK">
+<ind_PK_UK id="DF26B664-49AE-9B5A-A1D3-72D193B32CEE" name="final_exercise_points_PK">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>DA6C4A1D-D1AF-E3ED-8AEE-09D4763CAF53</generatorID>
@@ -58,7 +65,7 @@
 <colUsage columnID="CBA71166-AFED-C929-DE47-D1D07959AFBF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A91CA1B7-5189-E200-4A69-BA441E7CA9F3" name="Final_exercise_points_Final_exercise_FK">
+<ind_PK_UK id="A91CA1B7-5189-E200-4A69-BA441E7CA9F3" name="final_exercise_FK">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>7E8B58E9-7492-8A92-53CD-611B0F8D05C4</generatorID>
@@ -69,7 +76,7 @@
 <colUsage columnID="CBA71166-AFED-C929-DE47-D1D07959AFBF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6B076B41-EDF8-FD94-75FB-908CCE4D71F4" name="Final_exercise_points_Student_FK">
+<ind_PK_UK id="6B076B41-EDF8-FD94-75FB-908CCE4D71F4" name="final_exercise_student_FK">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 18:07:06 UTC</createdTime>
 <generatorID>CAC39957-10C5-0D23-1733-6CF2283AEAEA</generatorID>

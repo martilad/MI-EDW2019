@@ -13,7 +13,9 @@
 <createdTime>2019-03-14 11:51:40 UTC</createdTime>
 <generatorID>E232636B-7A00-6252-DF3E-1D98E879E682</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -26,7 +28,8 @@
 <createdTime>2019-03-14 11:51:40 UTC</createdTime>
 <generatorID>EA4B3022-947C-7E15-7C31-89E8F4EFBC39</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -39,7 +42,9 @@
 <createdTime>2019-03-14 11:51:40 UTC</createdTime>
 <generatorID>63115733-16A2-70DB-D1DB-E19A0E2DBCF0</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
