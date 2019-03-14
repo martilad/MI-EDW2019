@@ -16,19 +16,19 @@ specialized browsers for the students, and asks them to solve various problems
 with different levels of difficulty.
 
 We've aquired five types of datasets:
-1. __Data__ contains time series 
+1. [__Data__](#sessions-data) contains time series 
 of activities during six sessions of laboratory sessions of the course of 
 digital electronics. There are 6 folders containing the students’ data per 
 session. Each 'Session' folder contains up to 99 CSV files each dedicated to a 
 specific student log during that session. The number of files in each folder c
 hanges due to the number of students present in each session. Each file contains
 13 features described [below](#sessions-data).
-2. __Students__ contains ids of individual students, their first and last name
+2. [__Students__](#student-data) contains ids of individual students, their first and last name
 and last_update which indicates the date of the last change to the entry.
-3. __Logs__ contains attendance of students on sessions.
-4. __Intermidiate grades__ contains achieved points by each student for
+3. [__Logs__](#log-data) contains attendance of students on sessions.
+4. [__Intermidiate grades__](#session-grades) contains achieved points by each student for
 each session except the first one.
-5. __Final grade__ contains achieved points by each student for each question
+5. [__Final grade__](#final-grades) contains achieved points by each student for each question
 of the final exam.
 
 From these datasets, we shell be able to extract dependencies between student
@@ -37,29 +37,6 @@ attractivity and complexity of individual sessions or even individual exercises.
 To be able to extract and analyze these datasets and data they contain properly,
 it is crucial to have the data warehouse designed and implemented optimaly for
 the given bussiness domain.
-
-#### Final grades 
-Final grades (points) are recorded from two exam terms, therefore they're differented by number of attempt.
-* __student_id__ [int] - the Id of a student from 1 to 115
-* __excercise_name__ [string] - The excercise (question) name in final test
-* __points__ [int] - number of points achieved from a final exercise by a student
-* __attempt__ [int] - attempt number (1 to 2)
-
-#### Session grades
-* __student_id__ [int] - the Id of a student from 1 to 115
-* __session_id__ [string] - the number of a laboratory session from 1 to 6
-* __points__ [int] - number of points achieved from a session exercise by a student
-
-#### Student data
-* __student_id__ [int] - the Id of a student from 1 to 115
-* __first_name__ [string] - first name of a student
-* __last_name__ [string] - last name of a student
-* __last_update__ [date] - date on which was the student entry last updated
-
-#### Log data
-* __student_id__ [int] - the Id of a student from 1 to 115
-* __session_id__ [int] - the number of a laboratory session from 1 to 6
-* __present__ [int] - presence of a student on a session (basically boolean)
 
 #### Sessions data
 * __session__ [int] - 
@@ -147,6 +124,29 @@ when the title of a visited page is not recorded
 when the student is not viewing any pages described above, then we assigned
 'Other' to the activity. This includes, for majority of the cases, the student
 irrelevant activity to the course (e.g. if the student is on Facebook)
+
+#### Student data
+* __student_id__ [int] - the Id of a student from 1 to 115
+* __first_name__ [string] - first name of a student
+* __last_name__ [string] - last name of a student
+* __last_update__ [date] - date on which was the student entry last updated
+
+#### Log data
+* __student_id__ [int] - the Id of a student from 1 to 115
+* __session_id__ [int] - the number of a laboratory session from 1 to 6
+* __present__ [int] - presence of a student on a session (basically boolean)
+
+#### Session grades
+* __student_id__ [int] - the Id of a student from 1 to 115
+* __session_id__ [string] - the number of a laboratory session from 1 to 6
+* __points__ [int] - number of points achieved from a session exercise by a student
+
+#### Final grades 
+Final grades (points) are recorded from two exam terms, therefore they're differented by number of attempt.
+* __student_id__ [int] - the Id of a student from 1 to 115
+* __excercise_name__ [string] - The excercise (question) name in final test
+* __points__ [int] - number of points achieved from a final exercise by a student
+* __attempt__ [int] - attempt number (1 to 2)
 
 ### Target conceptual model
 <img src="/images/Logical.png" width="800">
