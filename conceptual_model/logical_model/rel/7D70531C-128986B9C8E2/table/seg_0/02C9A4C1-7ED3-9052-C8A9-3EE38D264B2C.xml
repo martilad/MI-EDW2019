@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02C9A4C1-7ED3-9052-C8A9-3EE38D264B2C" name="activity_type">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>F6A8192E-067D-E844-DAD4-849337320A56</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="name" id="06DFB07C-8A5D-9266-1A37-C1D6DC36FC59">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>D83405F3-FBCF-D53D-85B3-E2F7ACD07BB5</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C91E379-FB4F-7A93-BC08-EED4A95D45E2" name="Activity_type_PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>7E73A09C-2697-A8AB-75D2-D53E9C92AEC4</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06DFB07C-8A5D-9266-1A37-C1D6DC36FC59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

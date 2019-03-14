@@ -1,0 +1,205 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E5F2545-05C6-8F3C-78F3-A91B8E35B003" name="behaviour_entry">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>B2F63816-110E-1B38-1F39-70FF3C9D87EC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_id" id="9DD75F15-6337-370B-DD6D-1B17F50CFB09">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>F4E6315C-7FE5-404F-D3A3-26D0DAAB6D7C</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3793D056-CF76-2037-9420-B713895DCF87" referredColumn="72381C52-0D62-4C09-5892-6CB732470FF1"/>
+</associations>
+</Column>
+<Column name="Session_id" id="2433F79C-D8D7-5931-061C-D61A15FFC156">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>E439EAF0-C81C-61D3-257F-B757A17F4C30</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8DCA6BD6-E38F-2318-D7F5-C8699DFFF1EA" referredColumn="5C863579-E9CB-3CD4-FF28-3AB9EABB2720"/>
+</associations>
+</Column>
+<Column name="Activity_type_name" id="F6B3F7A8-1336-584B-3172-9BCC67700A15">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>9FE332E4-B244-72B3-A611-10A36CD6DC6D</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DEF9744-04C1-51CB-87C3-528C438550F8" referredColumn="06DFB07C-8A5D-9266-1A37-C1D6DC36FC59"/>
+</associations>
+</Column>
+<Column name="Exercise_id" id="2805094D-3A94-8EDB-DCEF-C25BE81C36C6">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>A105DF4D-13AF-E71E-C99C-5C1D7A0E86E2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B13AE08F-C95D-F89C-676D-B5312C3AF212" referredColumn="12C998AA-EE25-4D09-BF08-F3261E628816"/>
+</associations>
+</Column>
+<Column name="start_time" id="AE4E710C-1F66-5FE9-BF9A-A1AE0861BEE7">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>5032D2EC-7B1C-7475-82DA-65581E9CCBE3</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_time" id="4ECF3890-FFFE-0090-5679-0D436FEBD58B">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>7CC71B13-A87C-7C1C-6824-BE059B7F40C2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idle_time" id="2852F215-19DD-DF98-0CC8-F9FFCD04464B">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>8909D3EA-0770-556F-97EA-A46B588D3033</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_wheel" id="E97DF0FE-D0CF-D2D3-09B0-C4D848B8F25E">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>E0EE41E5-3E89-16DF-805A-0F42CB8C45FA</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_wheel_click" id="05E275E2-C8DA-71EC-D02E-E90DBE52FBD6">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>A664D2E2-95DC-1A6B-BDA6-FD2DD08D3CBF</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_click_left" id="25BCF57C-DBB3-4C64-5CFA-FB23EBABD027">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>4718F545-527F-EA0A-A207-7CB9603553AC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_click_right" id="E8DD28AE-77EE-E047-898A-B1750F7AC43C">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>CD5B15F6-F576-550D-E990-64F266C307F0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_movement" id="3800F6CA-BAC5-9B63-2D29-4A17BEAA0B93">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>20BC5E6F-68D3-7BCF-9D72-AD542E649A16</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keystroke" id="99BAF5A2-AF5D-E02F-E787-FFCDA62BD33B">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>37F70AF3-88CC-2F4D-777C-C782BA6B7D58</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B670A864-615A-5C60-088C-5B94B7551A79" name="Behaviour_entry_PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>D4ADBBFB-37A8-E23D-0056-F9A1B18192DD</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DD75F15-6337-370B-DD6D-1B17F50CFB09"/>
+<colUsage columnID="2433F79C-D8D7-5931-061C-D61A15FFC156"/>
+<colUsage columnID="2805094D-3A94-8EDB-DCEF-C25BE81C36C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5AFC8D6-F379-CDCA-E641-47769B0A7E9B" name="Behaviour_entry_Exercise_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>55A4C85F-796B-88C8-CA7C-894F4C5D8447</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2805094D-3A94-8EDB-DCEF-C25BE81C36C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B94D707F-85CE-E6FE-3BBE-BCA6D039B015" name="Behaviour_entry_Session_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>49211F14-EC54-87D0-3F00-3F46FB4AD6B9</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2433F79C-D8D7-5931-061C-D61A15FFC156"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2480920-A3F7-3F09-F1A1-7963C94455A6" name="Behaviour_entry_Student_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>226C6012-4A96-4CDB-83F1-A2B5636C9521</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DD75F15-6337-370B-DD6D-1B17F50CFB09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F99BB4FB-3E14-1F46-A931-8F3685656D49" name="Behaviour_entry_Activity_type_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>63C7A891-490C-42CF-86D9-63EE9537A714</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6B3F7A8-1336-584B-3172-9BCC67700A15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

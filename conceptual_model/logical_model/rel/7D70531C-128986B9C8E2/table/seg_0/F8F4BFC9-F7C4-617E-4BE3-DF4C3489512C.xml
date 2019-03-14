@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8F4BFC9-F7C4-617E-4BE3-DF4C3489512C" name="session_grade">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>43E30DDC-8DE7-E56F-17B9-1EEF7C699EF8</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Student_id" id="50865DA0-FC01-137E-C0A5-D7C1C0BB544F">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>A7B2DCA5-9B3D-02A6-6E9A-44CDF0983860</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E80FA39F-00C1-B98E-9C81-CC8B0E9419EB" referredColumn="72381C52-0D62-4C09-5892-6CB732470FF1"/>
+</associations>
+</Column>
+<Column name="points" id="54AB33E3-719D-AF50-0273-BC22C7DEF53E">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>71A348B0-940A-B3C3-29D6-0CC890ABAD8E</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Session_id" id="31A85AA1-E329-CDE3-5DAB-0225D3A87508">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>814EF865-912B-040D-733D-C987DAD14C78</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D83C2A9A-8EF0-0DF1-707E-4006D5B84CA4" referredColumn="5C863579-E9CB-3CD4-FF28-3AB9EABB2720"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EFF8E415-6055-1589-A50D-180FA3754C11" name="Session_grade_PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>330A84B4-0886-6428-4F76-DFFE3632E1EF</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50865DA0-FC01-137E-C0A5-D7C1C0BB544F"/>
+<colUsage columnID="31A85AA1-E329-CDE3-5DAB-0225D3A87508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="076A2763-3903-A087-D175-61F9BC203B6B" name="Session_grade_Student_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>C2837CDC-9423-60B8-9233-CA04704B4AD1</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50865DA0-FC01-137E-C0A5-D7C1C0BB544F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="003EFC16-751E-5C54-F6D5-CC548AF0E757" name="Session_grade_Session_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>F642ED7A-8970-1E92-0C07-E3F06E5C7E8E</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31A85AA1-E329-CDE3-5DAB-0225D3A87508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

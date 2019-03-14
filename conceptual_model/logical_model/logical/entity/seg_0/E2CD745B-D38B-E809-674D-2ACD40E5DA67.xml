@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D421FEAD-3445-E0B1-7A00-A0105E9D1D07" name="final_exercise_points">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E2CD745B-D38B-E809-674D-2ACD40E5DA67" name="attendance">
 <createdBy>werneric</createdBy>
-<createdTime>2019-03-13 17:04:17 UTC</createdTime>
+<createdTime>2019-03-13 18:14:56 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
 <item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
@@ -15,10 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="3196AD61-BFAA-4E3C-01EA-DF87587B6C9A">
+<Attribute name="id" id="E232636B-7A00-6252-DF3E-1D98E879E682">
 <createdBy>werneric</createdBy>
-<createdTime>2019-03-13 17:10:41 UTC</createdTime>
-<generatorID>CAC39957-10C5-0D23-1733-6CF2283AEAEA</generatorID>
+<createdTime>2019-03-13 18:15:51 UTC</createdTime>
+<generatorID>757D4951-DBEC-70FA-1E8C-D3513F96C5EC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<engineerTo>
+<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
+</engineerTo>
+<referedAttribute>F21D4091-8830-3755-1DE9-946C86BB939C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="EA4B3022-947C-7E15-7C31-89E8F4EFBC39">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:16:16 UTC</createdTime>
+<generatorID>AF462E0F-52E8-6CA1-6567-83E96FC1BDFD</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
 <item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
@@ -27,21 +39,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="exercise_name" id="7E574E9B-0F60-E534-B520-DAB589EB470E">
+<Attribute name="present" id="63115733-16A2-70DB-D1DB-E19A0E2DBCF0">
 <createdBy>werneric</createdBy>
-<createdTime>2019-03-13 17:33:48 UTC</createdTime>
-<generatorID>7E8B58E9-7492-8A92-53CD-611B0F8D05C4</generatorID>
-<ownerDesignName>logical_model</ownerDesignName>
-<engineerTo>
-<item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
-</engineerTo>
-<referedAttribute>6005190D-619F-5DDF-A765-281EA85E775F</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="points" id="D8B9BA7D-13FB-B6F3-6B1B-9F04F234DFA9">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 17:36:47 UTC</createdTime>
+<createdTime>2019-03-13 18:16:56 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
 <item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
@@ -51,17 +51,17 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="DA6C4A1D-D1AF-E3ED-8AEE-09D4763CAF53" name="Final grade PK">
+<identifier id="CE42957A-106F-67BF-1B99-9793822E96B5" name="attendance PK">
 <createdBy>werneric</createdBy>
-<createdTime>2019-03-13 17:10:39 UTC</createdTime>
+<createdTime>2019-03-13 18:15:57 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
 <item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>3196AD61-BFAA-4E3C-01EA-DF87587B6C9A</attributeRef>
-<attributeRef>7E574E9B-0F60-E534-B520-DAB589EB470E</attributeRef>
+<attributeRef>E232636B-7A00-6252-DF3E-1D98E879E682</attributeRef>
+<attributeRef>EA4B3022-947C-7E15-7C31-89E8F4EFBC39</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

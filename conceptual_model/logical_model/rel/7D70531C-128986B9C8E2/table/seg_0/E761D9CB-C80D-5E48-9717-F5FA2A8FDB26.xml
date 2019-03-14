@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E761D9CB-C80D-5E48-9717-F5FA2A8FDB26" name="final_exercise">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>29D7F083-C3AD-E910-9F4F-6BBEAC6160D6</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="exercise_name" id="00845BCD-350E-2F11-7E19-A65B8338A8C9">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>6005190D-619F-5DDF-A765-281EA85E775F</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maximum" id="17F71673-E450-24F5-D700-626217304746">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>C1653747-0060-0C53-EC69-3B75129F2157</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69A92026-748B-867F-DDA5-6426F864410F" name="Final_exercise_PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<generatorID>CEA8B134-E441-785C-40B8-3CA32FD6533D</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00845BCD-350E-2F11-7E19-A65B8338A8C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

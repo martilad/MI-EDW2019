@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B6E75EE-B560-869E-4784-DE1E4A7106AB" name="attendance">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>E2CD745B-D38B-E809-674D-2ACD40E5DA67</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="session_id" id="881858A4-6987-90E9-0CBB-8C35D5F5D288">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>E232636B-7A00-6252-DF3E-1D98E879E682</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D925D8E-120D-DB0D-1ABB-9053E73A5464" referredColumn="5C863579-E9CB-3CD4-FF28-3AB9EABB2720"/>
+</associations>
+</Column>
+<Column name="student_id" id="4FF71D9F-62E4-C0FA-D4E3-ED43DB15F1AA">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>EA4B3022-947C-7E15-7C31-89E8F4EFBC39</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EDB94E6-3E65-781B-4EFB-CB6A5839F317" referredColumn="72381C52-0D62-4C09-5892-6CB732470FF1"/>
+</associations>
+</Column>
+<Column name="present" id="DA8F1463-4AB9-7E94-CEF2-B2FC106A0337">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>63115733-16A2-70DB-D1DB-E19A0E2DBCF0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB52C968-CBFB-515A-E0F1-97E12988055C" name="attendance_PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>CE42957A-106F-67BF-1B99-9793822E96B5</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881858A4-6987-90E9-0CBB-8C35D5F5D288"/>
+<colUsage columnID="4FF71D9F-62E4-C0FA-D4E3-ED43DB15F1AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="21C9CA63-2745-695D-DF8A-964DB60EC2BF" name="attendance_session_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>757D4951-DBEC-70FA-1E8C-D3513F96C5EC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="881858A4-6987-90E9-0CBB-8C35D5F5D288"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2CC3E3B-CC04-061E-E791-81F0FAE78F80" name="attendance_student_FK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-03-14 11:51:40 UTC</createdTime>
+<generatorID>AF462E0F-52E8-6CA1-6567-83E96FC1BDFD</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FF71D9F-62E4-C0FA-D4E3-ED43DB15F1AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
