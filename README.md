@@ -7,7 +7,36 @@ Semestral work for Enterprise Data Warehouse Systems at FIT CVUT.
 Data analysis, entity and DB model design.
 
 ### Data description
-...
+We've got data from an experiment which was carried with a group of 115
+students of first-year, undergraduate Engineering major of the University 
+of Genoa. It comes from a simulation environment named Deeds 
+(Digital Electronics Education and Design Suite) which is used for e-learning in
+digital electronics. The environment provides learning materials through
+specialized browsers for the students, and asks them to solve various problems
+with different levels of difficulty.
+
+We've aquired five types of datasets:
+1. __Data__ contains time series 
+of activities during six sessions of laboratory sessions of the course of 
+digital electronics. There are 6 folders containing the students’ data per 
+session. Each 'Session' folder contains up to 99 CSV files each dedicated to a 
+specific student log during that session. The number of files in each folder c
+hanges due to the number of students present in each session. Each file contains
+13 features described [below](#sessions-data).
+2. __Students__ contains ids of individual students, their first and last name
+and last_update which indicates the date of the last change to the entry.
+3. __Logs__ contains attendance of students on sessions.
+4. __Intermidiate grades__ contains achieved points by each student for
+each session except the first one.
+5. __Final grade__ contains achieved points by each student for each question
+of the final exam.
+
+From these datasets, we shell be able to extract dependencies between student
+activity and performance and his final grade. It might also indicate the 
+attractivity and complexity of individual sessions or even individual exercises.
+To be able to extract and analyze these datasets and data they contain properly,
+it is crucial to have the data warehouse designed and implemented optimaly for
+the given bussiness domain.
 
 #### Final grades 
 Final grades (points) are recorded from two exam terms, therefore they're differented by number of attempt.
@@ -32,7 +61,7 @@ Final grades (points) are recorded from two exam terms, therefore they're differ
 * __session_id__ [int] - the number of a laboratory session from 1 to 6
 * __present__ [int] - presence of a student on a session (basically boolean)
 
-#### Sessions data 
+#### Sessions data
 * __session__ [int] - 
 the number of a laboratory session from 1 to 6
 * __student_id__ [int] - 
@@ -127,3 +156,11 @@ irrelevant activity to the course (e.g. if the student is on Facebook)
 
 ### Target database model
 <img src="/images/target_database_model.png" width="1100">
+
+## License:
+Use of this data set in publications must be acknowledged by referencing the following publication [1]
+
+[1] M. Vahdat, L. Oneto, D. Anguita, M. Funk, M. Rauterberg.: A learning analytics approach to correlate the academic achievements of students with interaction data from an educational simulator. In: G. Conole et al. (eds.): EC-TEL 2015, LNCS 9307, pp. 352-366. Springer (2015).
+DOI: 10.1007/978-3-319-24258-3 26
+
+This data set is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
