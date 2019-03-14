@@ -123,7 +123,7 @@ irrelevant activity to the course (e.g. if the student is on Facebook)
 <img src="/images/Logical.png" width="800">
 
 ### Stage database model
-<img src="/images/target_database_model.png" width="1000">
+<img src="/images/stage_database_model.png" width="600">
 
 ### Target database model
-<img src="(/images/stage_database_model.jpg" width="800">
+<img src="/images/target_database_model.png" width="1100">
