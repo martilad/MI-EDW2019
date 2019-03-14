@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6562A5B-F8C2-7A1F-F58B-24E99B6B13E9" name="student">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBA040BD-336C-BDED-D166-22B13BD4F575" name="student">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
 <generatorID>8D608DC0-CA22-0407-B069-47F9DCD98B5E</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id" id="72381C52-0D62-4C09-5892-6CB732470FF1">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<Column name="id" id="B57654B9-61D4-79F0-4D73-14DB92D269E5">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
 <generatorID>11420F8B-31CF-3419-10FC-DF565E086461</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="first_name" id="C0D30BF5-4FD2-A2E6-6823-114C775A4415">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<Column name="first_name" id="08C1B92A-1366-C72B-9D9D-E374FD50C87B">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
 <generatorID>979E739B-3A42-1E98-E6FC-AA6092FDF52C</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="last_name" id="044671C8-81DA-F0A0-DFCB-0B586DB8351F">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<Column name="last_name" id="ED296331-A160-44FF-088D-D6C046FC4802">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
 <generatorID>889693C2-A2D5-CAAE-FF88-3308521C8CE9</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,20 +43,10 @@
 <ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="from_date" id="A31D0517-BFC6-5ECE-A32A-5645B838505F">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 18:07:06 UTC</createdTime>
-<generatorID>B45BD88A-1EF0-6103-19A3-BA942CBAE2D5</generatorID>
-<ownerDesignName>logical_model</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="to_date" id="DA67A3FE-CBD7-3643-0631-5AB4A6B0AA1E">
+<Column name="last_update" id="C11FA960-F998-C0CB-9D58-DBC3E00D4861">
 <createdBy>lamxi</createdBy>
-<createdTime>2019-03-14 13:24:17 UTC</createdTime>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>B45BD88A-1EF0-6103-19A3-BA942CBAE2D5</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,17 +56,17 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E615CA24-B4AF-624D-4DA8-17CD38E6AB40" name="student_PK">
-<createdBy>werneric</createdBy>
-<createdTime>2019-03-13 18:07:06 UTC</createdTime>
+<ind_PK_UK id="3852F6BF-6843-C18D-D5E4-CF0191F9215C" name="student_PK">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
 <generatorID>C5D0CB3D-56D2-2C56-9182-B81E66176B44</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="72381C52-0D62-4C09-5892-6CB732470FF1"/>
-<colUsage columnID="DA67A3FE-CBD7-3643-0631-5AB4A6B0AA1E"/>
+<colUsage columnID="B57654B9-61D4-79F0-4D73-14DB92D269E5"/>
+<colUsage columnID="C11FA960-F998-C0CB-9D58-DBC3E00D4861"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

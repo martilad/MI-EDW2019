@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB5F303E-D674-5A15-B8E4-83527A1DA5B0" name="attendance">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>E2CD745B-D38B-E809-674D-2ACD40E5DA67</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="session_id" id="36FB0F4B-1786-9A27-0A63-B940FA36F33A">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>E232636B-7A00-6252-DF3E-1D98E879E682</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_id" id="E95EE9FE-FB40-157A-CA16-166D00154F2C">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>EA4B3022-947C-7E15-7C31-89E8F4EFBC39</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="present" id="BC69C679-C35E-DB27-ECA6-F3F997C7CD42">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>63115733-16A2-70DB-D1DB-E19A0E2DBCF0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74C782A9-0EE5-EB38-0229-917B09E18C40" name="attendance_PK">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>CE42957A-106F-67BF-1B99-9793822E96B5</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36FB0F4B-1786-9A27-0A63-B940FA36F33A"/>
+<colUsage columnID="E95EE9FE-FB40-157A-CA16-166D00154F2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

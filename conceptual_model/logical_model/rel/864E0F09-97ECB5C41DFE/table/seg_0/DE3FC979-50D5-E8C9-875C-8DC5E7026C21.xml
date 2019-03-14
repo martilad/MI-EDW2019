@@ -1,0 +1,237 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE3FC979-50D5-E8C9-875C-8DC5E7026C21" name="final_grades">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>D421FEAD-3445-E0B1-7A00-A0105E9D1D07</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<ordsAlias>final_exercise_points</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="E37EA217-7972-DE01-A0F7-D9804715E17E">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>3196AD61-BFAA-4E3C-01EA-DF87587B6C9A</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="attempt" id="C358BFBA-030A-125C-5E32-982A171452BC">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:27 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES1.1" id="894A92B9-D393-0A70-C1DF-FB2F75983C40">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:00:30 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES1.2" id="06ED4C86-763C-7D56-615C-4E6B419C6A26">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES2.1" id="6F74C6A7-F70A-58D7-E9EB-113291E657B4">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES2.2" id="8EB172BA-733B-91BF-F8AC-AF96DB8DE115">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES3.1" id="B7948EDC-5546-7E04-0A2A-B1CAB39DD366">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES3.2" id="C69AEA29-7DB1-9EC2-E3DA-60172C20C39E">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES3.3" id="9AF52F49-C596-4022-C3B3-52BB9FE37A63">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES3.4" id="43D5198C-8862-BA83-87D2-5018EAAA41B6">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES3.5" id="6243D5CC-5E61-92D2-3F04-FD1A7216C8D3">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES4.1" id="F47B1DA8-5E94-9F2F-24F6-248D362950DA">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:01:58 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES4.2" id="4377C307-5911-B0E0-D0FC-F56B9A344A0D">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES5.1" id="7A73C2E0-39F8-4ABC-2D02-C357B8A659AD">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES5.2" id="A5437D7B-E106-A4AA-FBA3-45B02DAB3D2D">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES5.3" id="281A2AFC-BE9C-0872-5A21-7079D220DEAF">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES6.1" id="290836B2-6DDF-4216-64C2-4E85F4E9A7CE">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ES6.2" id="A813F4C0-64E5-3C27-DD01-A12BD5A4367F">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="7410D523-67FC-AA16-C98B-6530204F7037">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:04:17 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73EEE1A7-EEDA-7F8C-FAC2-F56AEC86B271" name="final_grades_PK">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>DA6C4A1D-D1AF-E3ED-8AEE-09D4763CAF53</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E37EA217-7972-DE01-A0F7-D9804715E17E"/>
+<colUsage columnID="C358BFBA-030A-125C-5E32-982A171452BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

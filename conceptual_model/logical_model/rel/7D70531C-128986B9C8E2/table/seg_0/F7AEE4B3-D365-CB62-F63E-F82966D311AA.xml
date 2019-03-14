@@ -50,6 +50,30 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="attempt" id="9E8F70AE-B082-931B-CB83-BED30A8E49F4">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:45:39 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_to_date" id="E2208460-EB4C-3F87-86EA-5010880C1299">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:24:34 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BD251F7-55BE-1763-0AA9-6C4C5C19A5A9" referredColumn="DA67A3FE-CBD7-3643-0631-5AB4A6B0AA1E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DF26B664-49AE-9B5A-A1D3-72D193B32CEE" name="final_exercise_points_PK">
@@ -63,6 +87,7 @@
 <indexColumnUsage>
 <colUsage columnID="8E5CC4FB-5891-53E1-15C0-41778BBF9539"/>
 <colUsage columnID="CBA71166-AFED-C929-DE47-D1D07959AFBF"/>
+<colUsage columnID="9E8F70AE-B082-931B-CB83-BED30A8E49F4"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="A91CA1B7-5189-E200-4A69-BA441E7CA9F3" name="final_exercise_FK">
@@ -85,6 +110,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8E5CC4FB-5891-53E1-15C0-41778BBF9539"/>
+<colUsage columnID="E2208460-EB4C-3F87-86EA-5010880C1299"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

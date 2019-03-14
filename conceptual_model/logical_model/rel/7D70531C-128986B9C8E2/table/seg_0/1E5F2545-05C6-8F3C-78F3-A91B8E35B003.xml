@@ -169,6 +169,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="student_to_date" id="68973A18-12A4-FA64-E6FC-07739E0ADC25">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:24:34 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3793D056-CF76-2037-9420-B713895DCF87" referredColumn="DA67A3FE-CBD7-3643-0631-5AB4A6B0AA1E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B670A864-615A-5C60-088C-5B94B7551A79" name="behaviour_entry_PK">
@@ -183,6 +197,7 @@
 <colUsage columnID="9DD75F15-6337-370B-DD6D-1B17F50CFB09"/>
 <colUsage columnID="2433F79C-D8D7-5931-061C-D61A15FFC156"/>
 <colUsage columnID="2805094D-3A94-8EDB-DCEF-C25BE81C36C6"/>
+<colUsage columnID="AE4E710C-1F66-5FE9-BF9A-A1AE0861BEE7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="E5AFC8D6-F379-CDCA-E641-47769B0A7E9B" name="behaviour_exercise_FK">
@@ -216,6 +231,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9DD75F15-6337-370B-DD6D-1B17F50CFB09"/>
+<colUsage columnID="68973A18-12A4-FA64-E6FC-07739E0ADC25"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="F99BB4FB-3E14-1F46-A931-8F3685656D49" name="behaviour_activity_FK">

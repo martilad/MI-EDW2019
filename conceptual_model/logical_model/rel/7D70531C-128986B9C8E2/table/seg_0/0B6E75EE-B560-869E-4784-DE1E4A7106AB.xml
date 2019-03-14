@@ -28,6 +28,7 @@
 <createdTime>2019-03-14 11:51:40 UTC</createdTime>
 <generatorID>EA4B3022-947C-7E15-7C31-89E8F4EFBC39</generatorID>
 <ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -47,6 +48,20 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_to_date" id="C80CDE53-0646-3579-C7A4-D3FDBA2A1848">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:24:34 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EDB94E6-3E65-781B-4EFB-CB6A5839F317" referredColumn="DA67A3FE-CBD7-3643-0631-5AB4A6B0AA1E"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -83,6 +98,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="4FF71D9F-62E4-C0FA-D4E3-ED43DB15F1AA"/>
+<colUsage columnID="C80CDE53-0646-3579-C7A4-D3FDBA2A1848"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

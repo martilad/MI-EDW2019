@@ -49,6 +49,20 @@
 <colAssociation fkAssociation="D83C2A9A-8EF0-0DF1-707E-4006D5B84CA4" referredColumn="5C863579-E9CB-3CD4-FF28-3AB9EABB2720"/>
 </associations>
 </Column>
+<Column name="student_to_date" id="894B7D1D-69D4-5B5D-C5FB-1849308DD9B6">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 13:24:34 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E80FA39F-00C1-B98E-9C81-CC8B0E9419EB" referredColumn="DA67A3FE-CBD7-3643-0631-5AB4A6B0AA1E"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EFF8E415-6055-1589-A50D-180FA3754C11" name="session_grade_PK">
@@ -73,6 +87,7 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="50865DA0-FC01-137E-C0A5-D7C1C0BB544F"/>
+<colUsage columnID="894B7D1D-69D4-5B5D-C5FB-1849308DD9B6"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="003EFC16-751E-5C54-F6D5-CC548AF0E757" name="session_grade_session_FK">

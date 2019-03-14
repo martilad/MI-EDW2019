@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C5757AB-A42C-F311-57E7-F735B345B78E" name="intermediate_grades">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>A767F2B5-BF42-ABA2-227F-2A924F4BFEAC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<ordsAlias>exercise</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="B8109967-771D-AE33-6B7A-F34DB7EA56DC">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>3D4B9D2A-0FDA-94BD-C7E0-B9B256A538BE</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_id" id="F3538031-93CA-C15A-80DE-27A866DDCE7D">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:55:49 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="points" id="BEA8BA1F-7F71-8D2C-0E83-A9792D860540">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:56:15 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DDFEFE7-44E7-0C35-C77B-464CBA3B9280" name="intermediate_grades_PK">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>191D1FC1-88B1-D516-88DD-7411EF4285B0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8109967-771D-AE33-6B7A-F34DB7EA56DC"/>
+<colUsage columnID="F3538031-93CA-C15A-80DE-27A866DDCE7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="EB5F303E-D674-5A15-B8E4-83527A1DA5B0" name="attendance" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="305A0043-18F4-CDB0-A684-6400135182A4" name="behaviour_entry" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="DE3FC979-50D5-E8C9-875C-8DC5E7026C21" name="final_grades" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8C5757AB-A42C-F311-57E7-F735B345B78E" name="intermediate_grades" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="BBA040BD-336C-BDED-D166-22B13BD4F575" name="student" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

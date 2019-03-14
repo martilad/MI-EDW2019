@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="305A0043-18F4-CDB0-A684-6400135182A4" name="behaviour_entry">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>B2F63816-110E-1B38-1F39-70FF3C9D87EC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="session_id" id="4EEB5A1D-8A80-69EB-A957-B5CA5BC02940">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>E439EAF0-C81C-61D3-257F-B757A17F4C30</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_id" id="CC4EFCAE-C51A-FBF5-F816-95213F91DB9B">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>F4E6315C-7FE5-404F-D3A3-26D0DAAB6D7C</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="exercise" id="CD7D975A-E00F-6049-5775-E66A710CA881">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>A105DF4D-13AF-E71E-C99C-5C1D7A0E86E2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="activity" id="FB7D79FF-F5D7-3099-8BC6-4382EC1A579B">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:54:32 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256 CHAR</dataTypeSize>
+<ownDataTypeParameters>256 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_time" id="E4D138F7-8506-3EEA-6FA0-82AE9FA32BDC">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>5032D2EC-7B1C-7475-82DA-65581E9CCBE3</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_time" id="1E471D6E-D074-4E74-2513-9216563E043A">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>7CC71B13-A87C-7C1C-6824-BE059B7F40C2</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idle_time" id="28F033AD-67BE-9801-EF21-E3015AAE9956">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>8909D3EA-0770-556F-97EA-A46B588D3033</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_wheel" id="D5175DA1-0CB8-67C7-3989-6CF6B6C3427D">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>E0EE41E5-3E89-16DF-805A-0F42CB8C45FA</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_wheel_click" id="B957664A-A1F0-1313-8FC2-7F8BB1B36570">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>A664D2E2-95DC-1A6B-BDA6-FD2DD08D3CBF</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_click_left" id="B1745ABF-C39B-7C04-1C81-B411DA11C284">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>4718F545-527F-EA0A-A207-7CB9603553AC</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_click_right" id="C5BFE490-FFC2-FBAD-148B-8BDAB0263355">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>CD5B15F6-F576-550D-E990-64F266C307F0</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mouse_movement" id="1649A708-17D7-A941-DCD4-C7B42EBBF83F">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>20BC5E6F-68D3-7BCF-9D72-AD542E649A16</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="keystroke" id="D3C246EB-93CB-6BEA-7AA1-DA22D1E72BF4">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>37F70AF3-88CC-2F4D-777C-C782BA6B7D58</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CB4951D-D903-1710-44C6-871A15DC6123" name="behaviour_entry_PK">
+<createdBy>lamxi</createdBy>
+<createdTime>2019-03-14 12:37:27 UTC</createdTime>
+<generatorID>D4ADBBFB-37A8-E23D-0056-F9A1B18192DD</generatorID>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC4EFCAE-C51A-FBF5-F816-95213F91DB9B"/>
+<colUsage columnID="4EEB5A1D-8A80-69EB-A957-B5CA5BC02940"/>
+<colUsage columnID="E4D138F7-8506-3EEA-6FA0-82AE9FA32BDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
