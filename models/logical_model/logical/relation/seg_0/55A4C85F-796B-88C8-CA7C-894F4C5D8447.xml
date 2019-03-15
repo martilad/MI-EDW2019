@@ -1,13 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="55A4C85F-796B-88C8-CA7C-894F4C5D8447">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hasv2" directorySegmentName="seg_0" id="55A4C85F-796B-88C8-CA7C-894F4C5D8447">
 <createdBy>werneric</createdBy>
 <createdTime>2019-03-13 17:14:01 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
+<item key="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" value="true"/>
 <item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
 </engineerTo>
 <sourcePk>191D1FC1-88B1-D516-88DD-7411EF4285B0</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>occured_while_doing</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

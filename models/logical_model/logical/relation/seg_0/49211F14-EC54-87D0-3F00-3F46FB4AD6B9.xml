@@ -4,10 +4,12 @@
 <createdTime>2019-03-13 17:07:56 UTC</createdTime>
 <ownerDesignName>logical_model</ownerDesignName>
 <engineerTo>
+<item key="864E0F09-D8E5-293D-3DA0-97ECB5C41DFE" value="true"/>
 <item key="7D70531C-CBEA-A709-2A1E-128986B9C8E2" value="true"/>
 </engineerTo>
 <sourcePk>0D0950FE-8657-CA0C-BF62-D52067397D32</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>during</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
