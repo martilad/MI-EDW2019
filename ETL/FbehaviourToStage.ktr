@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>sharedTrans9</name>
+    <name>FbehaviourToStage</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -49,7 +50,7 @@
     <size_rowset>10000</size_rowset>
     <sleep_time_empty>50</sleep_time_empty>
     <sleep_time_full>50</sleep_time_full>
-    <unique_connections>N</unique_connections>
+    <unique_connections>Y</unique_connections>
     <feedback_shown>Y</feedback_shown>
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
@@ -66,10 +67,10 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2019&#x2f;04&#x2f;04 18&#x3a;38&#x3a;48.138</created_date>
+  <created_date>2019&#x2f;04&#x2f;04 18&#x3a;28&#x3a;48.298</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2019&#x2f;04&#x2f;04 18&#x3a;38&#x3a;48.138</modified_date>
-    <key_for_session_key/>
+  <modified_date>2019&#x2f;04&#x2f;04 18&#x3a;28&#x3a;48.298</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -98,35 +99,13 @@
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
-  <connection>
-    <name>TARGET</name>
-    <server>localohost</server>
-    <type>POSTGRESQL</type>
-    <access>Native</access>
-    <database>target</database>
-    <port>5432</port>
-    <username>postgres</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce78d184a1d5</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
   <order>
+  <hop> <from>CSVSessionRead</from><to>BehaviourEntryOutput</to><enabled>Y</enabled> </hop>
+  <hop> <from>GetSessionFiles</from><to>CSVSessionRead</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Table input</name>
-    <type>TableInput</type>
+    <name>BehaviourEntryOutput</name>
+    <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -136,23 +115,35 @@
            <schema_name/>
            </partitioning>
     <connection>STAGE</connection>
-    <sql>SELECT &#x3c;values&#x3e; FROM &#x3c;table name&#x3e; WHERE &#x3c;conditions&#x3e;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
+    <schema>public</schema>
+    <table>behaviour_entry</table>
+    <commit>1000</commit>
+    <truncate>Y</truncate>
+    <ignore_errors>N</ignore_errors>
+    <use_batch>N</use_batch>
+    <specify_fields>N</specify_fields>
+    <partitioning_enabled>N</partitioning_enabled>
+    <partitioning_field/>
+    <partitioning_daily>N</partitioning_daily>
+    <partitioning_monthly>Y</partitioning_monthly>
+    <tablename_in_field>N</tablename_in_field>
+    <tablename_field/>
+    <tablename_in_table>Y</tablename_in_table>
+    <return_keys>N</return_keys>
+    <return_field/>
+    <fields>
+    </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>592</xloc>
-      <yloc>477</yloc>
+      <xloc>896</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Table input 2</name>
-    <type>TableInput</type>
+    <name>CSVSessionRead</name>
+    <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -161,17 +152,217 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>TARGET</connection>
-    <sql>SELECT &#x3c;values&#x3e; FROM &#x3c;table name&#x3e; WHERE &#x3c;conditions&#x3e;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
+    <filename>C&#x3a;&#x5c;Users&#x5c;lamxi&#x5c;Desktop&#x5c;MI-EMP&#x5c;EPM&#x5c;Data&#x5c;Processes&#x5c;Session 1&#x5c;1</filename>
+    <filename_field>filename</filename_field>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>,</separator>
+    <enclosure>&#x22;</enclosure>
+    <header>N</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>Y</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding>UTF-8</encoding>
+    <fields>
+      <field>
+        <name>session_id</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>student_id</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>exercise</name>
+        <type>String</type>
+        <format/>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>7</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>activity</name>
+        <type>String</type>
+        <format/>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>18</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>start_time</name>
+        <type>Date</type>
+        <format>dd.MM.yyyy HH&#x3a;mm&#x3a;ss</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>19</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>end_time</name>
+        <type>Date</type>
+        <format>dd.MM.yyyy HH&#x3a;mm&#x3a;ss</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>19</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>idle_time</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>mouse_wheel</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>mouse_wheel_click</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>mouse_click_left</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>mouse_click_right</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>mouse_movement</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>keystroke</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x24;</currency>
+        <decimal>.</decimal>
+        <group>,</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+    </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>612</xloc>
-      <yloc>672</yloc>
+      <xloc>400</xloc>
+      <yloc>96</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>GetSessionFiles</name>
+    <type>GetFileNames</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <filter>
+      <filterfiletype>all_files</filterfiletype>
+    </filter>
+    <doNotFailIfNoFile>N</doNotFailIfNoFile>
+    <rownum>N</rownum>
+    <isaddresult>Y</isaddresult>
+    <filefield>N</filefield>
+    <rownum_field/>
+    <filename_Field/>
+    <wildcard_Field/>
+    <exclude_wildcard_Field/>
+    <dynamic_include_subfolders>N</dynamic_include_subfolders>
+    <limit>0</limit>
+    <file>
+      <name>C&#x3a;&#x5c;&#x5c;mi-edw-2019&#x5c;data&#x5c;Data&#x5c;Processes</name>
+      <filemask/>
+      <exclude_filemask>.&#x2a;.csv&#x7c;.&#x2a; .&#x2a;</exclude_filemask>
+      <file_required>N</file_required>
+      <include_subfolders>Y</include_subfolders>
+      <name/>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name/>
+      <filemask/>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+    </file>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>112</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
