@@ -101,7 +101,7 @@
   </connection>
   <connection>
     <name>TARGET</name>
-    <server>localohost</server>
+    <server>localhost</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>target</database>
