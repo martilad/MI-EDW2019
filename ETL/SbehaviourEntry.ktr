@@ -124,10 +124,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Table input</from><to>Table output</to><enabled>Y</enabled> </hop>
+  <hop> <from>behaviourEntry</from><to>saveToBehaviourEntry</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Table input</name>
+    <name>behaviourEntry</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -146,14 +146,14 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>231</xloc>
-      <yloc>170</yloc>
+      <xloc>224</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Table output</name>
+    <name>saveToBehaviourEntry</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -169,7 +169,7 @@
     <commit>1000</commit>
     <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
+    <use_batch>N</use_batch>
     <specify_fields>N</specify_fields>
     <partitioning_enabled>N</partitioning_enabled>
     <partitioning_field/>

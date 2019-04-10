@@ -124,10 +124,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Table input 3</from><to>Table output</to><enabled>Y</enabled> </hop>
+  <hop> <from>behaviour_entry</from><to>saveToExcercise</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Table input 3</name>
+    <name>behaviour_entry</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -153,7 +153,7 @@
     </step>
 
   <step>
-    <name>Table output</name>
+    <name>saveToExcercise</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -169,7 +169,7 @@
     <commit>1000</commit>
     <truncate>Y</truncate>
     <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
+    <use_batch>N</use_batch>
     <specify_fields>N</specify_fields>
     <partitioning_enabled>N</partitioning_enabled>
     <partitioning_field/>

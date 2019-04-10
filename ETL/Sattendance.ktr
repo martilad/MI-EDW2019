@@ -124,10 +124,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>Table input</from><to>Table output</to><enabled>Y</enabled> </hop>
+  <hop> <from>attendance</from><to>saveToAttendance</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Table input</name>
+    <name>attendance</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -153,7 +153,7 @@
     </step>
 
   <step>
-    <name>Table output</name>
+    <name>saveToAttendance</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
