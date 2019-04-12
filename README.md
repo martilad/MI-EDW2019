@@ -157,6 +157,9 @@ Final grades (points) are recorded from two exam terms, therefore they're differ
 ### Target database model
 <img src="/images/target_database_model.png" width="1100">
 
+## HW2
+<img src="/images/logical_data_map.png" width="1400">
+
 ## License:
 Use of this data set in publications must be acknowledged by referencing the following publication [1]
 
