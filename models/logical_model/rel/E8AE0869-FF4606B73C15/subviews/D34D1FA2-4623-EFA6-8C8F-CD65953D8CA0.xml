@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="datamart_model" id="D34D1FA2-4623-EFA6-8C8F-CD65953D8CA0">
+<createdBy>werneric</createdBy>
+<modifiedBy>werneric</modifiedBy>
+<createdTime>2019-04-24 14:46:36 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9B12CFA5-4AC8-442A-15A8-2AC36B2F76FB" otype="Table" vid="0294A035-94C3-0FF8-F833-C09608986408">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1" y="1" width="197" height="118"/>
+</OView>
+</objectViews>
+</Diagram>

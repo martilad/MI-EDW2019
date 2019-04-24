@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="D34D1FA2-4623-EFA6-8C8F-CD65953D8CA0" name="datamart_model" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="datamart_model" id="E8AE0869-8A09-A31A-AFCF-FF4606B73C15" mainViewID="D34D1FA2-4623-EFA6-8C8F-CD65953D8CA0">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:46:36 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

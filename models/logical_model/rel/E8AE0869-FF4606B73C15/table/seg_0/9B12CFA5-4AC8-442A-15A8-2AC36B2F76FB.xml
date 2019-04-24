@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B12CFA5-4AC8-442A-15A8-2AC36B2F76FB" name="datamart">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:47:40 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="EA95A1F9-1310-5B88-F2EB-E19DEF2A6AC8">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:48:14 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_id" id="8C492A00-13CD-27C9-3E29-4E865CDEA2F2">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:49:25 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duration" id="3E8CD78B-783C-9F88-E508-CDE437AF330C">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:49:47 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_points" id="4144879F-FA7D-8BEC-D327-DFABC5F346C5">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:51:21 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="final_points" id="F08E2ED0-647A-B4FC-DB96-5AF2851CF1AC">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:51:52 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5FE9C32-5BEF-DA7D-C35E-4901593EB8B5" name="datamart_PK">
+<createdBy>werneric</createdBy>
+<createdTime>2019-04-24 14:48:56 UTC</createdTime>
+<ownerDesignName>logical_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA95A1F9-1310-5B88-F2EB-E19DEF2A6AC8"/>
+<colUsage columnID="8C492A00-13CD-27C9-3E29-4E865CDEA2F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
