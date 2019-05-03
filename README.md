@@ -160,6 +160,27 @@ Final grades (points) are recorded from two exam terms, therefore they're differ
 ## HW2
 <img src="/images/logical_data_map.png" width="1400">
 
+## HW3
+
+### Model
+<img src="/images/datamart_model.png" width="400">
+
+### Popis datamartu
+...
+
+### Dashboard
+...
+
+### Otázky
+#### 1. Je nějaká spojitost mezi dobou strávenou na jednotlivých úlohách a známkou ze cvičení? Jaká?
+...
+
+#### 2. Je nějaká spojitost mezi dobou strávenou na jednotlivých úlohách a celkovou známkou? Jaká?
+...
+
+#### 3. Ovlivňuje některá ze známek ze cvičení výsledek u zkoušky více než ostatní? Jak?
+...
+
 ## License:
 Use of this data set in publications must be acknowledged by referencing the following publication [1]
 
