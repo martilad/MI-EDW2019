@@ -164,6 +164,11 @@ Final grades (points) are recorded from two exam terms, therefore they're differ
 
 ### Model
 <img src="/images/datamart_model.png" width="400">
+[](DDL/datamartdmEMPDDL.sql)
+
+### DDL
+* [DDL for create datamart](DDL/datamartdmEMPDDL.sql)
+* [create datamart job for pentaho](ETL/datamart/createDatamarts.kjb)
 
 ### Popis datamartu
 ...
