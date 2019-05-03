@@ -13,11 +13,11 @@
     <preference name='ui.shelf.height' value='26' />
   </preferences>
   <datasources>
-    <datasource caption='dmepm (datamart.dmepm) (target)' inline='true' name='federated.0vqrs8j1nv487a1f4da451tzga3a' version='18.1'>
+    <datasource caption='dmepm' inline='true' name='federated.0vqrs8j1nv487a1f4da451tzga3a' version='18.1'>
       <connection class='federated'>
         <named-connections>
           <named-connection caption='localhost' name='postgres.03fa2kr0h652mv1gfcv670ci6rhj'>
-            <connection authentication='username-password' class='postgres' dbname='target' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='postgres' />
+            <connection authentication='username-password' class='postgres' dbname='datamart' odbc-native-protocol='' one-time-sql='' port='5432' server='localhost' username='postgres' />
           </named-connection>
         </named-connections>
         <relation connection='postgres.03fa2kr0h652mv1gfcv670ci6rhj' name='dmepm' table='[datamart].[dmepm]' type='table' />
@@ -116,7 +116,7 @@
       <column datatype='integer' name='[session_id]' role='dimension' type='ordinal' />
       <column datatype='integer' name='[student_id]' role='dimension' type='ordinal' />
       <column-instance column='[session_id]' derivation='None' name='[none:session_id:ok]' pivot='key' type='ordinal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.481647' measure-ordering='alphabetic' measure-percentage='0.518353' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.472997' measure-ordering='alphabetic' measure-percentage='0.527003' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:session_id:ok]' palette='orange_10_0' type='palette'>
@@ -172,7 +172,7 @@
       <table>
         <view>
           <datasources>
-            <datasource caption='dmepm (datamart.dmepm) (target)' name='federated.0vqrs8j1nv487a1f4da451tzga3a' />
+            <datasource caption='dmepm' name='federated.0vqrs8j1nv487a1f4da451tzga3a' />
           </datasources>
           <datasource-dependencies datasource='federated.0vqrs8j1nv487a1f4da451tzga3a'>
             <column-instance column='[session_id]' derivation='Max' name='[max:session_id:ok]' pivot='key' type='ordinal' />
