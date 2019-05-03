@@ -169,13 +169,24 @@ Final grades (points) are recorded from two exam terms, therefore they're differ
 * [DDL for create datamart](DDL/datamartdmEMPDDL.sql)
 * [create datamart job for pentaho](ETL/datamart/createDatamarts.kjb)
 
-### Popis datamartu
-...
+### Datamart description
+Pro odpovězení alspoň dvou otázek potřebujeme v datamartu vždy studenty, jejich celkovou známku, dobu na jednotlivých úlohách na session a známkou z session.
+V datamartu máme data potřebná pro analýzu závislosti času na cvičeních, známek ze cvičeních a výsledku u zkoušky.
+
+Vyvořili jsme tedy datamart s atributy:
+* __student_id__ - identifikace studenta nutné pro rozlišení hodnot pro porovnání a hledání závislostí
+* __session_id__ - rozlišení jednotlivých cvičení pro anylýzu vlivu času na známce ze cvičení
+* __time__ - hodnoty času ztráveného na úlohách pro jednoho studenta na jednom cvičení (pokud se neúčastnil cvičení tak 0)
+* __session_points__ - body pro studenty z daného cvičení (pokud se neúčastnil cvičení tak 0)
+* __final_points__ - maximum bodů z obou termínů, hodnota se opakuje pro každé cvičení a je stejná, pro porovnání závislosti známky ze cvičení 
+            a také s časem ztráveným na cvičení (pokud se neúčastnil cvičení tak 0)
+
+
 
 ### Dashboard
 ...
 
-### Otázky
+### Questions
 #### 1. Je nějaká spojitost mezi dobou strávenou na jednotlivých úlohách a známkou ze cvičení? Jaká?
 ...
 
