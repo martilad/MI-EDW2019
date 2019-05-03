@@ -170,16 +170,21 @@ Final grades (points) are recorded from two exam terms, therefore they're differ
 * [create datamart job for pentaho](ETL/datamart/createDatamarts.kjb)
 
 ### Datamart description
-Pro odpovězení alspoň dvou otázek potřebujeme v datamartu vždy studenty, jejich celkovou známku, dobu na jednotlivých úlohách na session a známkou z session.
-V datamartu máme data potřebná pro analýzu závislosti času na cvičeních, známek ze cvičeních a výsledku u zkoušky.
+To answer at least two questions, 
+we always need identifiers of students in our data mart for analyzing dependencies and 
+comparing the values of the monitored indicators.
+Furthermore, we need their total grade, the sum of time and 
+the mark from each session. We added their ID to the data mart to identify sessions.
 
-Vyvořili jsme tedy datamart s atributy:
-* __student_id__ - identifikace studenta nutné pro rozlišení hodnot pro porovnání a hledání závislostí
-* __session_id__ - rozlišení jednotlivých cvičení pro anylýzu vlivu času na známce ze cvičení
-* __time__ - hodnoty času ztráveného na úlohách pro jednoho studenta na jednom cvičení (pokud se neúčastnil cvičení tak 0)
-* __session_points__ - body pro studenty z daného cvičení (pokud se neúčastnil cvičení tak 0)
-* __final_points__ - maximum bodů z obou termínů, hodnota se opakuje pro každé cvičení a je stejná, pro porovnání závislosti známky ze cvičení 
-            a také s časem ztráveným na cvičení (pokud se neúčastnil cvičení tak 0)
+So, in the data mart, we have the data needed to analyze the dependencies between time on individual tasks, 
+sessions marks and test results for answer the questions.
+
+So we created a datamart with attributes:
+* __student_id__ - student_id is needed to identifying a student to find the dependency of observed values
+* __session_id__ - session_id is needed to identifying a session to find dependency between session grades and time spend on task on each the session
+* __time__ - time spent on the tasks for one student and one session (if he did not participate in the exercise, the value is 0)
+* __session_points__ - session points (if he did not participate in the exercise, the value is 0)
+* __final_points__ - maximum points from both attempts, the value is repeated for each session (if he did not participate in the exercise, the value is 0)
 
 
 
