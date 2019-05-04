@@ -194,13 +194,23 @@ We have created a datamart with attributes:
 
 ### Questions
 #### 1. Je nějaká spojitost mezi dobou strávenou na jednotlivých úlohách a známkou ze cvičení? Jaká?
-...
+Mezi dobou strávenou na cvičeních a obdrženými body z tohoto cvičení jsme nezpozorovali 
+žádnou výraznou závislost, ale všimli jsem si jedné zajímavosti. Tou je, že pokud 
+student strávil na cvičení přiliš mnoho času, pak body nedostal žádné. Nejspíš se 
+studenti s úlohami trápili tak dlouho, že nakonec nedostali body žádné nebo velmi málo (z lítosti.)
 
 #### 2. Je nějaká spojitost mezi dobou strávenou na jednotlivých úlohách a celkovou známkou? Jaká?
-...
+Na dolním grafu můžeme vidět, že mezi dobou strávenou na jednotlivých úlohách a celkovou 
+známkou není žádná výrazná závislost. Je zde vidět, že mezi lidmi, kteří zkoušku 
+neabsolvovali nebo dostali nula bodů, je patrné větší procento těch, co na jednotlivých 
+úlohách strávili méně času. Je také více pravděpodobné, že student co bodově spadal mezi 
+nejlepších 25 %, tak na úlohách strávil nějaký nezanedbatelný čas.
 
 #### 3. Ovlivňuje některá ze známek ze cvičení výsledek u zkoušky více než ostatní? Jak?
-...
+Největší závislost (pozitivní korelaci) jsme zpozorovali u cvičení číslo 6. Z grafů je vidět, 
+že se zvyšujícími se body ze cvičení se i zlepšují celkové výsledky studentů u zkoušky.
+Kromě cvičení 6, kde je tato závislost opravdu výrazná, jsme tento jev zpozorovali také
+u cvičení 3 a 2. U zbylých cvičení 4 a 5 byl tento jev téměř zanedbatelný.
 
 ## License:
 Use of this data set in publications must be acknowledged by referencing the following publication [1]
