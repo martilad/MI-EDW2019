@@ -198,10 +198,14 @@ So we created a datamart with attributes:
 <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;9J&#47;9J6G469G8&#47;1.png' /> 
 <param name='animate_transition' value='yes' />
 <param name='display_static_image' value='yes' />
-<param name='display_spinner' value='no' />
-<param name='display_overlay' value='no' />
-<param name='display_count' value='no' /></object></div>                
-<script type='text/javascript'>var divElement = document.getElementById('viz1556986161329');var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1600px';vizElement.style.height='927px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1600px';vizElement.style.height='927px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<param name='display_spinner' value='yes' />
+<param name='display_overlay' value='yes' />
+<param name='display_count' value='yes' /></object>
+</div>                
+<script type='text/javascript'>var divElement = document.getElementById('viz1556986161329');var vizElement = divElement.getElementsByTagName('object')[0];
+if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1600px';vizElement.style.height='927px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1600px';vizElement.style.height='927px';} else { vizElement.style.width='100%';vizElement.style.height='977px';}                     
+var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+</script>
 
 ### Questions
 #### 1. Je nějaká spojitost mezi dobou strávenou na jednotlivých úlohách a známkou ze cvičení? Jaká?
