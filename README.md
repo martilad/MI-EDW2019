@@ -190,6 +190,9 @@ We have created a datamart with attributes:
 
 
 ### Dashboard
+* [Tableau dashboard file](reports/report.twb)
+* [Tableau Public link](https://public.tableau.com/shared/9J6G469G8?:display_count=yes)
+
 <img src="/images/report.png" width="1100">
 
 ### Questions
