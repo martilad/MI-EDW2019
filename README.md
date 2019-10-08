@@ -1,4 +1,5 @@
 # MI-EDW-2019
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Semestral work for Enterprise Data Warehouse Systems at FIT CVUT.
 
@@ -216,7 +217,9 @@ Kromě cvičení 6, kde je tato závislost opravdu výrazná, jsme tento jev zpo
 u cvičení 3 a 2. U zbylých cvičení 4 a 5 byl tento jev téměř zanedbatelný.
 
 ## License:
-Use of this data set in publications must be acknowledged by referencing the following publication [1]
+This project is licensed under the **MIT**, but with restriction to referencing the following publication bellow if use the same dataset.
+
+Use of this data set in publications must be acknowledged by referencing the following paper [1]
 
 [1] M. Vahdat, L. Oneto, D. Anguita, M. Funk, M. Rauterberg.: A learning analytics approach to correlate the academic achievements of students with interaction data from an educational simulator. In: G. Conole et al. (eds.): EC-TEL 2015, LNCS 9307, pp. 352-366. Springer (2015).
 DOI: 10.1007/978-3-319-24258-3 26
